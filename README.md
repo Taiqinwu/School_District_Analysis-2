@@ -7,6 +7,9 @@ Our team was hired to provide an analysis of a High School district Test scores 
 ### Executive Summary
 The team has parsed the data and concluded that overall the removal of the  math, reading and overall scores of the THS 9th grader does not impact the overall district metrics.
 However, it is important to note that when looking at the overall scores of the THS academic performance, there is a substantial (> 25%) shift in the percentage of students with passing grades for math and reading.
+### Removal of Data
+This is the screenshot of the removal of all 9th grade scores in math and reading.
+![Removal of 9th Grade Data](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/9th_grade_scores_removed.png)
 
 ## Results
 In this section, our team will answer the following set of questions and will provide evidence of our findings.
@@ -27,15 +30,17 @@ Overall, we see negligible changes in the District Summary:
 Avg. Math Score       79.0%      78.9%       0.1%
 % Passing Math        75.0%      74.8%       0.2%
 % Overall Passing     65.2%      64.9%       0.3%
-*Insert Images here*
+![Original District Summary](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/District_Summary_Original.png)
+![NEW District Summary](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/District_Summary_NEW.png)
 
 ### How is the school summary affected?
-When digging deeper into the School Summary, we see a substantial shift in some of the data:
+When digging deeper into the School Summary for THS, we see a substantial shift in some of the data:
                     Original    New Data    Delta
 % Passing Math        66.9%      93.2%      26.3%
 % Passing Reading     69.7%      97.0%      27.3%
 % Overall Passing     65.1%      90.6%      25.5%
-*Insert Images here*
+![Original THS Data](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/THS_Scores_Original.png)
+![NEW THS Data](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/THS_Scores_NEW.png)
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 The analysis outlined in the previous section indicates that scores from 9th grade highlight, on average, a 26% decrease in academic performance at THS.
@@ -56,11 +61,13 @@ This seemingly contradictory finding is due to two factors:
 
 ### How does replacing the ninth-grade scores affect the scores by school size?
 Similarly to the findings when analyzing the data when broken down by school spending, the removal of the 9th grade scores did not affect the original analysis.
- *insert by_size images*
+![Data grouped by School Size - Original](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/By_Size_Original.png)
+![Data grouped by School Size - NEW](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/By_Size_NEW.png)
 
 ### How does replacing the ninth-grade scores affect the scores by school type?
 Similarly to the findings when analyzing the data when broken down by school spending, the removal of the 9th grade scores did not affect the original analysis.
- *insert by_type images*
+![Data grouped by School Type - Original](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/By_Type_Original.png)
+![Data grouped by School Type - NEW](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/By_Type_NEW.png)
 
 ## Additional Data (Top/Bottom Analysis)
 ### Top Schools
@@ -69,10 +76,13 @@ Although this data was not expressedly requested, during our analysis of the dat
 % Passing Math        93.27%     93.19%     0.08%
 % Passing Reading     97.31%     97.02%     0.29%
 % Overall Passing     90.95%     90.63%     0.32%
-*insert top images*
+![Top Schools - Original](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/Top_five_schools_Original.png)
+![Top Schools - NEW](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/Top_five_schools_NEW.png)
+
 ### Bottom Schools
 The data did not affect the order or overall statistics of the bottom five schools:
-*insert bottom images*
+![Bottom Schools - Original](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/Bottom_five_schools_Original.png)
+![Bottom Schools - NEW](https://github.com/mrmarken/School_District_Analysis/blob/main/Resources/challenge_images/Bottom_five_schools_NEW.png)
 
 ## Summary
 We can summarize the following:
